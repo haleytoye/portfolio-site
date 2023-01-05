@@ -1,0 +1,143 @@
+:root {
+  --primary-color: #1e64d6;
+  --secondary-color: #f5f6fd;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.conatiner {
+  display: block;
+  margin: 60px auto;
+  max-width: 800px;
+}
+
+h1,
+h2,
+h3 {
+  text-align: center;
+  margin: 0;
+}
+
+h1 {
+  font-size: 96px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 48px;
+}
+
+h3 {
+  font-size: 24px;
+  opacity: 0.7;
+}
+
+p {
+  padding: 20px;
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: left;
+}
+
+.navigation-links {
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
+}
+
+.navigation-links a {
+  margin: 20px;
+}
+
+.primary-link {
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+.primary-link:hover {
+  color: var(--secondary-color);
+  text-decoration: underline;
+}
+
+.secondary-link {
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+.secondary-link:hover {
+  color: var(--primary-color);
+  text-decoration: underline;
+}
+
+#homepage-link {
+  color: var(--primary-color);
+  text-align: center;
+  display: block;
+
+  margin: 20px auto;
+}
+
+.about-paragraphs {
+  display: flex;
+  margin: 30px 0;
+}
+
+.about-paragraphs {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 20pt auto;
+  max-width: 700pt;
+  margin-bottom: 60pt;
+}
+.first {
+  margin-top: 50px;
+}
+.about-paragraphs p {
+  color: black;
+  text-indent: 4%;
+  text-align: left;
+  font-size: 14pt;
+  font-weight: 100;
+  background-color: var(--secondary-color);
+  margin: 10px;
+  padding: 20px;
+  width: 50%;
+  border-radius: 4px;
+}
+
+.email-link {
+  display: flex;
+  justify-content: center;
+  color: var(--primary-color);
+  font-size: 28px;
+  text-decoration: none;
+}
+
+.email-link:hover {
+  text-decoration: underline;
+}
+
+img {
+  display: block;
+  margin: 30px auto;
+  max-width: 100%;
+}
+
+#contact {
+  margin-bottom: 10px;
+}
+
+.homepage-link:hover {
+  text-decoration: underline;
+}
+
+.yoga-text {
+  margin-top: 20px;
+}
